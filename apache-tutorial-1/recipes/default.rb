@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-package 'mysql-client' do
+package 'mysql-client-core-5.5' do
   action :install
 end
 
