@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-package 'mysql' do
+package 'mysql-server' do
   action :install
 end
 
