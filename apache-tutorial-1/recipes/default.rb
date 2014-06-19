@@ -7,13 +7,13 @@
 # All rights reserved - Do Not Redistribute
 #
 
-package 'mysql-server' do
+package 'mysql-client' do
   action :install
 end
 
-service 'mysql' do
-  action [ :enable, :start ]
-end
+#service 'mysql' do
+#  action [ :enable, :start ]
+#end
 
 #cookbook_file '/var/www/index.html' do
 #  source 'index.html'
